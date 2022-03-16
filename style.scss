@@ -164,3 +164,19 @@
     }
   }
 }
+
+.main__banner {
+  width: $wideWidth;
+  height: 450px;
+  margin: 0 auto;
+  background-image: url("https://image8.coupangcdn.com/image/ccm/banner/9fb9b02bd7aa5868792da3b3a8808d7a.png");
+  div {
+    width: $width;
+    height: 450px;
+    margin: $marginAuto;
+    display: $flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: $fontSize;
+  }
+}
