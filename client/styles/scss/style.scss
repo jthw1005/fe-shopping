@@ -1,0 +1,14 @@
+@charset "UTF-8";
+@import './base/_normalize';
+@import './base/_reset';
+@import './_variables';
+@import './common/_flex';
+@import './_header';
+
+.container {
+  @extend %flex-row;
+  
+  margin: auto;
+  width: $container-width;
+  font-size: $font-size-16;
+}
