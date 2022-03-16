@@ -1,10 +1,17 @@
-# fe-shopping
 
 ### 쿠팡 클론
 
-#### 구현 사항
+#### 주요 기능
+- 쿠팡 쇼핑몰 메인페이지 UI
+
+- 검색 자동완성 기능
+
+- 캐로셀 기능
+
+#### 현재까지 구현 사항
 
 ![image](https://user-images.githubusercontent.com/90082464/158507573-27cad74c-1d76-426a-a322-c198b77bb80c.png)
+
 
 #### 구현 checklist
 - [ ] HTML 만들기
