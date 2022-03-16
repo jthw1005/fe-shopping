@@ -1,0 +1,79 @@
+header {
+  .small {
+    font-size: 0.6rem;
+    padding: 0.7rem;
+    background-color: $gray;
+    > :last-child {
+      margin-left: auto;
+    }
+    div {
+      * {
+        margin: 0.4rem;
+      }
+      :first-child {
+        margin-left: 0;
+      }
+      :last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .main {
+    height: 8rem;
+    @include divideFlex(1, 6, 1.5);
+  }
+
+  .categories {
+    background-color: $blue-main;
+    color: $white;
+    i {
+      font-size: 2rem;
+    }
+    * {
+      margin: 0.2rem;
+    }
+  }
+
+  .center-main {
+    > * {
+      height: 2.5rem;
+    }
+    height: 6rem;
+    .img {
+      padding: 1rem;
+    }
+  }
+
+  .center-search {
+    @include divideFlex(1, 3);
+    border: 0.25rem solid $blue-main;
+    .menu {
+      @include divideFlex(5, 1);
+      .menu-selected {
+        padding: 0.2rem;
+      }
+    }
+    .form {
+      @include divideFlex(10, 1);
+      > * {
+        height: 2.5rem;
+      }
+      button {
+        background-color: $white;
+        font-size: 0.8rem;
+        color: $blue-main;
+      }
+    }
+  }
+
+  .personal {
+    @include divideFlex(1, 1);
+    text-align: center;
+    padding: 0.5rem;
+    i {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+  }
+}
