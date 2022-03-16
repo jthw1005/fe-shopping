@@ -43,5 +43,75 @@
   color: #fff;
   margin-top: 30px;
 }
+.header__search .header__searchbar {
+  width: 750px;
+  height: 115px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.header__search .header__searchbar img {
+  margin-top: 30px;
+}
+
+.header__searchnav {
+  width: 1020px;
+  height: 115px;
+}
+
+.header__category {
+  display: flex;
+}
+.header__category .header__choosecategory {
+  width: 130px;
+  height: 40px;
+  border: 1px solid #0000ee;
+  border-right: 1px solid #ddd;
+  margin-left: 30px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__category .header__choosecategory .header__categorytitle {
+  font-size: 12px;
+  line-height: 40px;
+  margin-left: 10px;
+  color: #666;
+}
+.header__category .header__choosecategory .check {
+  background-image: url(https://img1a.coupangcdn.com/image/coupang/common/pc_header_img_sprite_180104.png);
+  background-position-x: 6px;
+  background-position-y: -160px;
+  padding-bottom: 3px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+
+.header__searchkeyword {
+  width: 400px;
+  height: 40px;
+  border: 1px solid blue;
+  border-left: none;
+  margin-top: 30px;
+  position: relative;
+}
+.header__searchkeyword input {
+  width: 380px;
+  height: 35px;
+  border: none;
+  padding-left: 10px;
+  line-height: 30px;
+}
+.header__searchkeyword span {
+  background-image: url(https://static.coupangcdn.com/image/coupang/common/pc_header_img_sprite_180104.png);
+  background-position-x: -112px;
+  background-position-y: -71px;
+  cursor: pointer;
+  width: 50px;
+  height: 39px;
+  position: absolute;
+  right: 0px;
+  bottom: -2px;
+}
 
 /*# sourceMappingURL=style.css.map */
