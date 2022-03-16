@@ -119,8 +119,7 @@
 
 .header__submenu ul {
   width: 730px;
-  display: $flex;
-  justify-content: space-between;
+  @include display();
   font-size: 13px;
   margin-top: 10px;
 }
