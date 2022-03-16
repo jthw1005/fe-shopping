@@ -176,5 +176,24 @@
   align-items: center;
   font-size: 12px;
 }
+.main__banner div ul {
+  background: #fff;
+  text-align: left;
+}
+.main__banner div ul li {
+  width: 180px;
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #ddd;
+}
+.main__banner div ul li:last-child {
+  border-bottom: none;
+}
+.main__banner div ul li span {
+  margin-left: 10px;
+}
+.main__banner .active {
+  border: 1px solid blue;
+}
 
 /*# sourceMappingURL=style.css.map */

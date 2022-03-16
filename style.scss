@@ -179,4 +179,23 @@
     align-items: center;
     font-size: $fontSize;
   }
+  div ul {
+    background: #fff;
+    text-align: left;
+  }
+  div ul li {
+    width: 180px;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #ddd;
+  }
+  div ul li:last-child {
+    border-bottom: none;
+  }
+  div ul li span {
+    margin-left: 10px;
+  }
+  .active {
+    border: 1px solid blue;
+  }
 }
