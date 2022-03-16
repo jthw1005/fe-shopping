@@ -1,0 +1,47 @@
+.header-body {
+  width: 100%;
+  background-color: $white;
+
+  .logo {
+    margin: 0;
+    margin-right: 20px;
+
+    a {
+      width: 170px;
+
+      img {
+        display: block;
+        width: 170px;
+      }
+    }
+  }
+
+  .wrapper {
+    @include flexbox(start);
+    width: $primary-width;
+    margin: 0 auto;
+  }
+
+  .category-btn {
+    position: relative;
+    width: 110px;
+    margin-right: 30px;
+
+    img {
+      display: block;
+      width: 100%;
+    }
+
+    h3 {
+      @include font-style($font-md, $white);
+      @include pos-center-x;
+
+      bottom: 20px;
+      cursor: pointer;
+    }
+  }
+
+  .group-wrapper {
+    @include col-flexbox;
+  }
+}
