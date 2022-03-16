@@ -1,0 +1,10 @@
+@import 'reset';
+@import 'utils';
+@import './template/bar';
+@import './template/header';
+@import './template/carousel';
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
