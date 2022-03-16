@@ -1,0 +1,24 @@
+{
+  "name": "fe-shopping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "scss": "sass public/stylesheet/scss/main.scss public/stylesheet/css/style.css",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BB-choi/fe-shopping.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BB-choi/fe-shopping/issues"
+  },
+  "homepage": "https://github.com/BB-choi/fe-shopping#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
