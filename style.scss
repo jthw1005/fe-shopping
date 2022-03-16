@@ -124,3 +124,43 @@
   font-size: 13px;
   margin-top: 10px;
 }
+
+.header__info {
+  width: 150px;
+  display: $flex;
+  padding-top: 30px;
+  font-size: 12px;
+  position: relative;
+  .header__mycoupang {
+    margin-right: 10px;
+    margin-left: 20px;
+    .header__mycoupang-icon {
+      background-image: url(https://static.coupangcdn.com/image/coupang/common/pc_header_img_sprite_180104.png);
+      background-position-x: -112px;
+      background-position-y: -42px;
+      cursor: pointer;
+      width: 29px;
+      height: 31px;
+      margin-left: 5px;
+      margin-top: 0px;
+      text-align: center;
+    }
+  }
+
+  .header__shopping {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    .header__shopping-icon {
+      background-image: url(https://static.coupangcdn.com/image/coupang/common/pc_header_img_sprite_180104.png);
+      background-position-x: -112px;
+      background-position-y: 0px;
+      cursor: pointer;
+      width: 40px;
+      height: 41px;
+      margin-left: 5px;
+      margin-right: 5px;
+      text-align: left;
+    }
+  }
+}
