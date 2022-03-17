@@ -1,0 +1,25 @@
+.top-bar__background {
+  background-color: #f0f0f0;
+}
+
+.top-bar__container {
+  width: 1000px;
+  height: 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-bar__col {
+  display: flex;
+  .btn {
+    padding: 0px 5px;
+    font-size: 0.6rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: #1f1f1f;
+  }
+}
