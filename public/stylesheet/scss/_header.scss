@@ -1,0 +1,230 @@
+.header {
+  width: 1000px;
+  height: 115px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.category-btn {
+  background-image: url(//static.coupangcdn.com/image/coupang/common/pc_header_img_sprite_180104.png);
+  background-repeat: no-repeat;
+  width: 110px;
+  height: 115px;
+  background-position: 0 0;
+  text-align: center;
+}
+
+.category-btn > a {
+  display: block;
+  margin-top: 73px;
+  color: #fff;
+  font-size: 13px;
+}
+
+.header__icon--right {
+  padding-bottom: 20px;
+}
+
+.header__icon--right > span {
+  font-size: 12px;
+  color: #1f1f1f;
+}
+
+.header__icon--right:first-child {
+  padding-top: 10px;
+}
+
+.header__icon--right:nth-child(2) {
+  position: relative;
+  margin-left: 20px;
+}
+
+.header-cart-cnt {
+  position: absolute;
+  top: 4px;
+  left: 25px;
+  font-size: 11px;
+  color: #fff;
+}
+
+.my-coupang-icon {
+  width: 29px;
+  height: 31px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 3px;
+  background-position: -112px -42px;
+  background-image: url(//static.coupangcdn.com/image/coupang/common/pc_header_img_sprite_180104.png);
+  background-repeat: no-repeat;
+}
+
+.cart-icon {
+  width: 40px;
+  height: 41px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 3px;
+  background-position: -112px 0;
+  background-image: url(//static.coupangcdn.com/image/coupang/common/pc_header_img_sprite_180104.png);
+  background-repeat: no-repeat;
+}
+
+// 여기서부터 메인!
+
+.header-main-container {
+  width: 73%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header__gnb {
+  margin-bottom: 5px;
+}
+
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.coupang-logo {
+  width: 174px;
+  height: 41px;
+}
+
+.gnb-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gnb-menu a {
+  font-size: 12px;
+  color: #1f1f1f;
+}
+
+.gnb-menu > li {
+  display: flex;
+  align-items: center;
+  height: 25px;
+}
+
+.rocket-delivery {
+  background-image: url(//static.coupangcdn.com/image/coupang/common/pc_header_img_sprite_180104.png);
+  background-repeat: no-repeat;
+  background-position: 0 -118px;
+  padding-left: 23px;
+}
+
+.rocket-fresh {
+  background-image: url(//static.coupangcdn.com/image/coupang/common/pc_header_rocket_fresh_1x.png);
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+
+.new-badge {
+  display: inline-block;
+  overflow: hidden;
+  width: 12px;
+  height: 12px;
+  background: url(//static.coupangcdn.com/image/coupang/common/ico_new.png) no-repeat transparent;
+  background-size: 12px;
+}
+
+.header-main__search {
+  position: relative;
+  display: flex;
+  border: 3px solid #4284f3;
+  align-items: center;
+  width: 100%;
+  height: 35px;
+  margin-left: 25px;
+}
+
+.search__category {
+  width: 25%;
+  height: 100%;
+  box-sizing: border-box;
+  border-right: 1px solid #d1d1d1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+  cursor: pointer;
+
+  span {
+    color: #555555;
+    font-size: 12px;
+  }
+  i {
+    color: #b2b2b2;
+  }
+}
+
+.search__input {
+  width: 74%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.search__input input {
+  height: 90%;
+  border-style: none;
+  width: 100%;
+}
+
+.search__input input:focus {
+  outline: none;
+}
+
+.mic-icon {
+  overflow: hidden;
+  width: 26px;
+  height: 26px;
+  background: url(//img1a.coupangcdn.com/image/coupang/common/ic_mic.png) 3px 1px no-repeat;
+  background-size: 20px 48px;
+  cursor: pointer;
+}
+
+.search-icon {
+  width: 50px;
+  height: 39px;
+  background-position: -112px -71px;
+  background-image: url(//static.coupangcdn.com/image/coupang/common/pc_header_img_sprite_180104.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin-top: 3px;
+}
+
+.search__category-list {
+  position: absolute;
+  background-color: #fff;
+  width: 130px;
+  max-height: 500px;
+  border-style: sha;
+  top: 35px;
+  overflow: hidden;
+  box-shadow: 1px 1px 4px gray;
+  overflow-y: scroll;
+  transition: max-height 0.2s ease-out;
+}
+
+.hidden {
+  max-height: 0 !important;
+}
+
+.category__items li {
+  font-size: 12px;
+  padding: 10px;
+}
+
+.category__item a {
+  color: inherit;
+}
