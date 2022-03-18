@@ -25,23 +25,82 @@
         </div>
       </section>
 
-      <!-- <section class="header">
-        <div class="header__wrapper">
-          <span>카테고리</span>
+      <section class="header">
+        <div class="category-btn">
+          <a href="#">카테고리</a>
         </div>
 
-        <div class="header__wrapper">
+        <div class="header-main-container">
           <div class="header-main">
-            <div class="header-main__logo"></div>
-            <div class="header-main__search"></div>
+            <div class="header-main__logo">
+              <a href="#"
+                ><img
+                  src="//image7.coupangcdn.com/image/coupang/common/logo_coupang_w350.png"
+                  alt="쿠팡로고"
+                  class="coupang-logo"
+              /></a>
+            </div>
+
+            <div class="header-main__search">
+              <div class="search__category">
+                <span class="category__title">전체</span>
+                <span class="category__arrow"><i class="fa-solid fa-caret-down"></i></span>
+              </div>
+
+              <div class="search__category-list hidden">
+                <ul class="category__items">
+                  <li class="category__item"><a href="#"> 전체</a></li>
+                  <li class="category__item"><a href="#"> 여성패션</a></li>
+                  <li class="category__item"><a href="#"> 남성패션</a></li>
+                  <li class="category__item"><a href="#"> 남녀 공용 의류</a></li>
+                  <li class="category__item"><a href="#"> 유아동패션</a></li>
+                  <li class="category__item"><a href="#"> 뷰티</a></li>
+                  <li class="category__item"><a href="#"> 출산/유아동</a></li>
+                  <li class="category__item"><a href="#"> 식품</a></li>
+                  <li class="category__item"><a href="#"> 주방용품</a></li>
+                  <li class="category__item"><a href="#"> 생활용품</a></li>
+                  <li class="category__item"><a href="#"> 홈인테리어</a></li>
+                  <li class="category__item"><a href="#"> 가전디지털</a></li>
+                  <li class="category__item"><a href="#"> 스포츠/레저</a></li>
+                  <li class="category__item"><a href="#"> 자동차용품</a></li>
+                  <li class="category__item"><a href="#"> 도서/음반/DVD</a></li>
+                  <li class="category__item"><a href="#"> 완구/취미</a></li>
+                  <li class="category__item"><a href="#"> 문구/오피스</a></li>
+                  <li class="category__item"><a href="#"> 반려동물물품</a></li>
+                  <li class="category__item"><a href="#"> 헬스/건강식품</a></li>
+                  <li class="category__item"><a href="#"> 국내여행</a></li>
+                  <li class="category__item"><a href="#"> 해외여행</a></li>
+                  <li class="category__item"><a href="#"> 로켓설치</a></li>
+                  <li class="category__item"><a href="#"> 공간별 집꾸미기</a></li>
+                  <li class="category__item"><a href="#"> 헬스케어 전문관</a></li>
+                  <li class="category__item"><a href="#"> 쿠팡 Only</a></li>
+                  <li class="category__item"><a href="#"> 싱글라이프</a></li>
+                  <li class="category__item"><a href="#"> 악기전문관</a></li>
+                  <li class="category__item"><a href="#"> 결혼준비</a></li>
+                  <li class="category__item"><a href="#"> 아트/공예</a></li>
+                  <li class="category__item"><a href="#"> 홈카페</a></li>
+                  <li class="category__item"><a href="#"> 실버스토어</a></li>
+                </ul>
+              </div>
+              <div class="search__input">
+                <input type="text" placeholder="  찾고 싶은 상품을 검색해보세요!" />
+                <span class="mic-icon"> </span>
+                <span class="search-icon"> </span>
+              </div>
+            </div>
           </div>
 
           <div class="header__gnb">
             <ul class="gnb-menu">
               <li class="rocket-delivery"><a href="#">로켓배송</a></li>
               <li class="rocket-fresh"><a href="#">로켓프레시</a><span class="new-badge"></span></li>
-              <li class="coupang-biz"><a href="#">쿠팡비즈</a><span class="new-badge"></span></li>
-              <li class="coupang-global"><a href="#">로켓직구</a></li>
+              <li class="coupang-biz">
+                <img src="//static.coupangcdn.com/image/coupang/common/logoBizonlyBrown.png" /><a href="#">쿠팡비즈</a
+                ><span class="new-badge"></span>
+              </li>
+              <li class="coupang-global">
+                <img src="//static.coupangcdn.com/image/coupang/home/icons/Overseas.png" /><a href="#">로켓직구</a>
+              </li>
               <li><a href="#">골드박스</a></li>
               <li><a href="#">와우회원할인</a></li>
               <li><a href="#">이벤트/쿠폰</a></li>
@@ -52,17 +111,19 @@
         </div>
 
         <div class="header__wrapper">
-          <div>
-            <span class="my-coupang-icon">
+          <a class="header__icon--right" href="#">
+            <span class="my-coupang-icon"></span>
             <span class="my-coupang-title">마이쿠팡</span>
-          </div>
-          <div>
+          </a>
+          <a class="header__icon--right" href="#">
             <span class="cart-icon"></span>
             <span class="cart-title">장바구니</span>
-          </div>
+            <div class="header-cart-cnt">0</div>
+          </a>
         </div>
-      </section> -->
+      </section>
     </header>
     <script src="https://kit.fontawesome.com/85a7925297.js" crossorigin="anonymous"></script>
+    <script type="module" src="public/js/app.js"></script>
   </body>
 </html>
