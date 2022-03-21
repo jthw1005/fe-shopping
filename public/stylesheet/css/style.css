@@ -177,6 +177,35 @@ a {
   color: #1f1f1f;
 }
 
+.top-ad {
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.top-ad img {
+  cursor: pointer;
+}
+
+.top-ad i {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  font-size: 4rem;
+  color: #777;
+  cursor: pointer;
+}
+
+.hidden {
+  max-height: 0 !important;
+}
+
 .header {
   width: 1000px;
   height: 115px;
@@ -447,8 +476,8 @@ a {
   padding: 10px;
 }
 
-.category__item a {
-  color: inherit;
+.category__item {
+  cursor: pointer;
 }
 
 body {
