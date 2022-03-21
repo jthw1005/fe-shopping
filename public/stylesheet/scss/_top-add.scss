@@ -1,0 +1,23 @@
+.top-add {
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+
+  img {
+    cursor: pointer;
+  }
+  i {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    font-size: 4rem;
+    color: #777;
+    cursor: pointer;
+  }
+}
+
+.hidden {
+  max-height: 0 !important;
+}
